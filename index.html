@@ -21,6 +21,20 @@
     #locateMe { bottom: 20px; right: 10px; }
     #toggleFreeBikes { bottom: 100px; right: 10px; }
     #toggleFlexzones { bottom: 140px; right: 10px; }
+    #logo-link {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  z-index: 1000;
+  background: white;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+#brand-logo {
+  height: 50px;
+  width: auto;
+}
   </style>
 </head>
 <body>
@@ -29,6 +43,9 @@
   <button id="toggleFlexzones">Flexzonen ⏻</button>
   <button id="toggleCluster">Cluster einblenden</button>
   <button id="locateMe">📍 Mein Standort</button>
+  <a id="logo-link" href="https://www.nextbike.de/potsdam/de/" target="_blank" rel="noopener">
+  <img id="brand-logo" src="logodomain.png" alt="Potsdam Logo" />
+</a>
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
