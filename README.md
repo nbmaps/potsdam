@@ -1,2 +1,2 @@
-# veloleomap
-Stationskarte VELOLEO Braunschweig by Nextbike
+# nextbike potsdam
+Stationskarte Potsdam by Nextbike
